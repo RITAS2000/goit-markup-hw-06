@@ -626,6 +626,7 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 288px;
 }
 .style-footer-paragraf {
     font-weight: 500;
@@ -1040,6 +1041,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
         display: flex;
         padding-left: 108px;
         padding-right: 164px;
+        align-items: flex-start;
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
