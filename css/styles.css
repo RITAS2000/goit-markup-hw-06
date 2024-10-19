@@ -300,6 +300,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 72px;
+    width: 216px;
 }
 .section-one-button {
     width: 169px;
@@ -977,6 +978,8 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     .section-one-text {
         font-size: 56px;
         line-height: 107%;
+        width: 496px;
+
         }
     .section-one-text {
         padding-bottom: 36px;
@@ -1224,39 +1227,44 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
 
 
 
-/* Для экранов 320px с плотностью 2x */
-@media (min-width: 320px) and (min-resolution: 192dpi),
-(min-width: 320px) and (min-device-pixel-ratio: 2) {
+
+/* Для екранів до 767px з 2x щільністю */
+@media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+(max-width: 767px) and (min-resolution: 192dpi) {
     .section-one-style {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark2.jpg')
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark2@2x.jpg');
     }
 }
 
-/* Для экранов 768px с плотностью 1x */
-@media (min-width: 768px) {
+/* --- Для екранів від 768px до 1157px --- */
+
+/* Для екранів від 768px до 1157px з 1x щільністю */
+@media (min-width: 768px) and (max-width: 1157px) {
     .section-one-style {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7681.jpg');
     }
 }
 
-/* Для экранов 768px с плотностью 2x */
-@media (min-width: 768px) and (min-resolution: 192dpi),
-(min-width: 768px) and (min-device-pixel-ratio: 2) {
+/* Для екранів від 768px до 1157px з 2x щільністю */
+@media (min-width: 768px) and (max-width: 1157px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 768px) and (max-width: 1157px) and (min-resolution: 192dpi) {
     .section-one-style {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7682.jpg');
     }
 }
 
-/* Для экранов 1158px с плотностью 1x */
+/* --- Для екранів від 1158px і більше --- */
+
+/* Для екранів від 1158px з 1x щільністю */
 @media (min-width: 1158px) {
     .section-one-style {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people1.jpg');
     }
 }
 
-/* Для экранов 1158px с плотностью 2x */
-@media (min-width: 1158px) and (min-resolution: 192dpi),
-(min-width: 1158px) and (min-device-pixel-ratio: 2) {
+/* Для екранів від 1158px з 2x щільністю */
+@media (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1158px) and (min-resolution: 192dpi) {
     .section-one-style {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people2.jpg');
     }
