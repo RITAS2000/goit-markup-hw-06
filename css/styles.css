@@ -1386,41 +1386,18 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
 /* Для экранов 320px с плотностью 2x */
 @media (min-width: 320px) and (min-resolution: 192dpi),
 (min-width: 320px) and (min-device-pixel-ratio: 2) {
     .section-one-style {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/Dark2.jpg')
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark2.jpg')
     }
 }
 
 /* Для экранов 768px с плотностью 1x */
 @media (min-width: 768px) {
     .section-one-style {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/Dark7681.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7681.jpg');
     }
 }
 
@@ -1428,14 +1405,14 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
 @media (min-width: 768px) and (min-resolution: 192dpi),
 (min-width: 768px) and (min-device-pixel-ratio: 2) {
     .section-one-style {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/Dark7682.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7682.jpg');
     }
 }
 
 /* Для экранов 1158px с плотностью 1x */
 @media (min-width: 1158px) {
     .section-one-style {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/people1.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people1.jpg');
     }
 }
 
@@ -1443,6 +1420,6 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
 @media (min-width: 1158px) and (min-resolution: 192dpi),
 (min-width: 1158px) and (min-device-pixel-ratio: 2) {
     .section-one-style {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/people2.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people2.jpg');
     }
 }
