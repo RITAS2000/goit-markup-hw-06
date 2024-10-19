@@ -6,60 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
     <link rel="stylesheet" href="css/styles.css">
     <title>WebStudio</title>
 
 </head>
 
 <body>
+    <div class="menu-overlay" id="menu-overlay">
+        <div>
+            <a href="#!">
+                <button type="button" class="menu-button-cloce">
+                    <svg width="8" height="8">
+                        <use href="./images/icons.svg#icon-cloce"></use>
+                    </svg>
+                </button>
+            </a>
+            <nav class="menu-navigaciya">
+                <ul class="menu-ul-navigaciya">
+                    <li>
+                        <a href="./index.html" class="menu-navigaciya-text">Studio</a>
+                    </li>
+                    <li>
+                        <a href="" class="menu-navigaciya-text">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="" class="menu-navigaciya-text">Contacts</a>
+                    </li>
 
-    <header class="header-border header-shadow">
-        <div class="container-header container">
-            <nav class="header-nav-style-line">
-                <a href="./index.html" class="logo-webstudio">Web<span class="logo-span">Studio</span></a>
-                <ul class="ul-header">
-                    <li><a href="./index.html"
-                            class="header-style header-style-after header-li-style-line-stodio">Studio</a></li>
-                    <li><a href="" class="header-style header-li-style-line-portfolio">Portfolio</a></li>
-                    <li><a href="" class="header-style header-li-style-line-contacts">Contacts</a></li>
                 </ul>
             </nav>
-            <address class="address-style">
-                <ul class="ul-adress-style">
-                    <li class="li-adress-mail-style">
-                        <a href="mailto:info@devstudio.com" class="info-style">info@devstudio.com</a>
+            <address class="menu-address">
+                <ul class="menu-ul-address">
+                    <li>
+                        <a href="tel:+110001111111" class="menu-address-text">+11 (000) 111-11-11</a>
                     </li>
-                    <li class="li-adress-tel-style ">
-                        <a href="tel:+110001111111" class="info-style">+11 (000) 111-11-11</a>
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="menu-address-text">info@devstudio.com</a>
                     </li>
+
                 </ul>
             </address>
+            <ul class="menu-icons">
+                <li class="menu-li-icons">
+                    <a href="https://www.instagram.com" target="_blank" class="menu-ul-link">
+                        <svg width="24" height="24" class="menu-icons-style">
+                            <use href="./images/icons.svg#icon-inctagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-li-icons">
+                    <a href="https://www.twitter.com" target="_blank" class="menu-ul-link">
+                        <svg width="24" height="24" class="menu-icons-style">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-li-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="menu-ul-link">
+                        <svg width="24" height="24" class="menu-icons-style">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-li-icons">
+                    <a href="https://www.linkedin.com" target="_blank" class="menu-ul-link">
+                        <svg width="24" height="24" class="menu-icons-style">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+
+            </ul>
         </div>
+    </div>
+    <header class="header-style">
+        <nav class="header-container">
+            <a href="./index.html" class="header-logo-text">Web<span class="menu-span-text">Studio</span></a>
+            <a href="#menu-overlay">
+                <button type="button" class="header-buttum" action="#menu-overlay" method="get">
+                    <svg width="24" height="24" class="menu-button-icon">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+                <ul class="ul-header">
+                    <li class="li-padding"><a href="./index.html" class=" li-dekor nav-li-text-style">Studio</a>
+                    </li>
+
+                    <li class="li-padding"><a href="" class="nav-li-text-style">Portfolio</a>
+                    </li>
+                    <li><a href="" class="nav-li-text-style">Contacts</a></li>
+                </ul>
+        </nav>
+        <address class="address-style">
+            <ul class="ul-adress-style">
+                <li>
+                    <a href="mailto:info@devstudio.com" class="info-style">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+110001111111" class="info-style">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
     </header>
     <main>
         <section class="section-one-style">
-            <div class="container-section-one container">
-                <h1 class="section-one-title">Effective Solutions for Your Business </h1>
+            <div class="container-section-one">
+                <h1 class="section-one-text">Effective Solutions for Your Business </h1>
                 <button type="button" class="section-one-button">Order Service</button>
             </div>
         </section>
         <section class="section-two-style">
-            <div class="container-section-two container">
-                <h2 class="visually-hidden">Цей заголовок прихованый</h2>
+            <div class="container-section-two">
+                <h2 class="visually-hidden">Benefits</h2>
                 <ul class="ul-two-section">
-                    <li class="li-section-formula">
+                    <li class="li-two-style">
                         <div class="div-icons">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-antenna"></use>
@@ -70,7 +135,7 @@
                             perfect and creative solution.
                         </p>
                     </li>
-                    <li class="li-section-formula">
+                    <li class="li-two-style">
                         <div class="div-icons">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-clock"></use>
@@ -83,7 +148,7 @@
                             time.
                         </p>
                     </li>
-                    <li class="li-section-formula">
+                    <li class="li-two-style">
                         <div class="div-icons">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-diagram"></use>
@@ -95,7 +160,7 @@
                             opportunities and minimize
                             risk.</p>
                     </li>
-                    <li class="li-section-formula">
+                    <li class="li-two-style">
                         <div class="div-icons">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-astonaut"></use>
@@ -112,25 +177,24 @@
             </div>
         </section>
         <section class="section-three-style">
-            <div class="container-section-three container">
+            <div class="container-section-three">
                 <h2 class="section-three-title">Our Team</h2>
                 <ul class="ul-section-three">
-                    <li class="li-section-three-formula section-three-li">
-                        <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260">
+                    <li class="section-three-li ">
+                        <img srcset="./images/Mark1.jpg 1x, ./images/Mark2.jpg 2x" src="./images/Mark1.jpg"
+                            alt="Mark Guerrero" width="264" height="260">
                         <div class="name-container">
                             <h3 class="section-three-name">Mark Guerrero</h3>
                             <p class="section-three-text">Product Designer</p>
-                            <ul class="ul-icons">
-                                <li class="li-icons-style">
+                            <ul class="ul-three-icons">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.instagram.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-inctagram"></use>
                                         </svg>
                                     </a>
-
-
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.twitter.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-twitter"></use>
@@ -138,14 +202,14 @@
                                     </a>
 
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.facebook.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.linkedin.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-linkedin"></use>
@@ -155,34 +219,35 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="li-section-three-formula section-three-li">
-                        <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260">
+                    <li class="section-three-li">
+                        <img srcset="./images/Tom1.jpg 1x, ./images/Tom2.jpg 2x" src="./images/Tom1.jpg" alt="Tom Ford"
+                            width="264" height="260">
                         <div class="name-container">
                             <h3 class="section-three-name">Tom Ford</h3>
                             <p class="section-three-text">Frontend Developer</p>
-                            <ul class="ul-icons">
-                                <li class="li-icons-style">
+                            <ul class="ul-three-icons">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.instagram.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-inctagram"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.twitter.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.facebook.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.linkedin.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-linkedin"></use>
@@ -192,34 +257,35 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="li-section-three-formula section-three-li">
-                        <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260">
+                    <li class="section-three-li">
+                        <img srcset="./images/Camila1.jpg 1x, ./images/Camila2 2x" src="./images/Camila1.jpg"
+                            alt="Camila Garcia" width="264" height="260">
                         <div class="name-container">
                             <h3 class="section-three-name">Camila Garcia</h3>
                             <p class="section-three-text">Marketing</p>
-                            <ul class="ul-icons">
-                                <li class="li-icons-style">
+                            <ul class="ul-three-icons">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.instagram.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-inctagram"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.twitter.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.facebook.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.linkedin.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-linkedin"></use>
@@ -229,34 +295,35 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="li-section-three-formula section-three-li">
-                        <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260">
+                    <li class="section-three-li">
+                        <img srcset="./images/Daniel1.jpg 1x, ./images/Daniel2 2x" src="./images/Daniel1.jpg"
+                            alt="Daniel Wilson" width="264" height="260">
                         <div class="name-container">
                             <h3 class="section-three-name">Daniel Wilson</h3>
                             <p class="section-three-text">UI Designer</p>
-                            <ul class="ul-icons">
-                                <li class="li-icons-style">
+                            <ul class="ul-three-icons">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.instagram.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-inctagram"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.twitter.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.facebook.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="li-icons-style">
+                                <li class="li-icons-three-style">
                                     <a href="https://www.linkedin.com" target="_blank" class="a-icons-style">
                                         <svg width="16" height="16" class="svg-icon-style">
                                             <use href="./images/icons.svg#icon-linkedin"></use>
@@ -268,14 +335,16 @@
                     </li>
                 </ul>
             </div>
+
         </section>
         <section class="section-four-style">
-            <div class="container-section-four container">
+            <div class="container-section-four">
                 <h2 class="section-four-title">Our Portfolio</h2>
-                <ul class="ul-four">
-                    <li class="li-four hover formula-four">
-                        <div class="overlay">
-                            <img src="./images/banking.jpg" alt="Banking App" width="360" height="300">
+                <ul class="ul-four-section">
+                    <li class="li-four-style hover-overlay-section-four">
+                        <div class="overlay-section-four">
+                            <img srcset="./images/Banking1.jpg 1x, ./images/Banking2.jpg 2x" src="./images/Banking1.jpg"
+                                alt="Banking App" width="360" height="300">
                             <p class="paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App
                                 · Exotic Fruit Ecommerce App ·
@@ -286,9 +355,10 @@
                             <p class="section-four-text">App</p>
                         </div>
                     </li>
-                    <li class="li-four hover formula-four">
-                        <div class="overlay">
-                            <img src="./images/cashless.jpg" alt="Cashless Payment" width="360" height="300">
+                    <li class="li-four-style hover-overlay-section-four">
+                        <div class="overlay-section-four">
+                            <img srcset="./images/Cashless1.jpg 1x, ./images/Cashless2.jpg 2x"
+                                src="./images/Cashless1.jpg" alt="Cashless Payment" width="360" height="300">
                             <p class="paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App
                                 · Exotic Fruit Ecommerce App ·
@@ -299,9 +369,10 @@
                             <p class="section-four-text">Marketing</p>
                         </div>
                     </li>
-                    <li class="li-four hover formula-four">
-                        <div class="overlay">
-                            <img src="./images/meditation.jpg" alt="Meditation App" width="360" height="300">
+                    <li class="li-four-style hover-overlay-section-four">
+                        <div class="overlay-section-four">
+                            <img srcset="./images/Media1.jpg 1x, ./images/Media2.jpg 2x" src="./images/Media1.jpg"
+                                alt="Meditation App" width="360" height="300">
                             <p class="paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App
                                 · Exotic Fruit Ecommerce App ·
@@ -312,9 +383,10 @@
                             <p class="section-four-text">App</p>
                         </div>
                     </li>
-                    <li class="li-four hover formula-four">
-                        <div class="overlay">
-                            <img src="./images/taxi.jpg" alt="Taxi Service" width="360" height="300">
+                    <li class="li-four-style hover-overlay-section-four">
+                        <div class="overlay-section-four">
+                            <img srcset="./images/Taxi1.jpg 1x, ./images/Taxi2.jpg 2x" src="./images/Taxi1.jpg"
+                                alt="Taxi Service" width="360" height="300">
                             <p class="paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App
                                 · Exotic Fruit Ecommerce App ·
@@ -325,9 +397,10 @@
                             <p class="section-four-text">Marketing</p>
                         </div>
                     </li>
-                    <li class="li-four hover formula-four">
-                        <div class="overlay">
-                            <img src="./images/screen.jpg" alt="Screen Illustrations" width="360" height="300">
+                    <li class="li-four-style hover-overlay-section-four">
+                        <div class="overlay-section-four">
+                            <img srcset="./images/Screen1.jpg 1x, ./images/Screen2.jpg 2x" src="./images/Screen1.jpg"
+                                alt="Screen Illustrations" width="360" height="300">
                             <p class="paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App
                                 · Exotic Fruit Ecommerce App ·
@@ -338,9 +411,10 @@
                             <p class="section-four-text">Design</p>
                         </div>
                     </li>
-                    <li class="li-four hover formula-four">
-                        <div class="overlay">
-                            <img src="./images/online.jpg" alt="Online Courses" width="360" height="300">
+                    <li class="li-four-style hover-overlay-section-four">
+                        <div class="overlay-section-four">
+                            <img srcset="./images/Online1.jpg 1x, ./images/Online2.jpg 2x" src="./images/Online1.jpg"
+                                alt="Online Courses" width="360" height="300">
                             <p class="paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App
                                 · Exotic Fruit Ecommerce App ·
@@ -353,13 +427,15 @@
                     </li>
                 </ul>
             </div>
+
         </section>
+
     </main>
     <footer class="footer-style">
-        <div class="container-footer container">
+        <div class="container-footer-style">
             <div class="style-logo-footer">
                 <a href="./index.html" class="logo-webstudio-footer">Web<span class="logo-span-footer">Studio</span></a>
-                <p class="footer-text">Increase the flow of customers and<br> sales for your business with digital<br>
+                <p class="footer-text">Increase the flow of customers and sales for your business with digital
                     marketing
                     &
                     growth solutions.</p>
@@ -397,27 +473,24 @@
                     </li>
 
                 </ul>
+
             </div>
-            <div class="form">
+            <div class="container-forma-footer">
                 <p class="style-footer-subscribe">Subscribe</p>
-                <form class="style-footer-form" action="#overlay" method="get">
-                    <label class="footer-lab-style">
+                <form class="style-footer-form" action="#modal-overlay" method="get">
+                    <label>
                         <input type="email" name="footer-email" class="input-footer-email" placeholder="E-mail">
                     </label>
                     <button type="submit" class="style-footer-but">Subscribe
-                        <svg width="24" height="24" class="icon-but-style">
+                        <svg width="24" height="24">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg>
                     </button>
-
-
-
                 </form>
-
             </div>
         </div>
     </footer>
-    <div class="modal-overlay" id="overlay">
+    <div class="modal-overlay" id="modal-overlay">
         <div class="moda-window-style">
             <a href="#">
                 <button type="button" class="moda-but">
@@ -427,7 +500,7 @@
                 </button>
             </a>
             <p class="moda-paragraf">Leave your contacts and we will call you back</p>
-            <form>
+            <form class="form">
                 <div class="moda-form-style">
                     <label for="user-name" class="moda-lab-style">Name</label>
                     <div class="lab-inp-style">
@@ -441,7 +514,7 @@
                 <div class="moda-form-style">
                     <label for="user-phone" class="moda-lab-style">Phone</label>
                     <div class="lab-inp-style">
-                        <input type="text" id="user-phone" name="user-phone" class="moda-inp-style">
+                        <input type="tel" id="user-phone" name="user-phone" class="moda-inp-style">
                         <svg width="18" height="24" class="moda-icon-style">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -450,7 +523,7 @@
                 <div class="moda-form-style">
                     <label for="user-email" class="moda-lab-style">Email</label>
                     <div class="lab-inp-style">
-                        <input type="text" id="user-email" name="user-email" class="moda-inp-style">
+                        <input type="email" id="user-email" name="user-email" class="moda-inp-style">
                         <svg width="18" height="24" class="moda-icon-style">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
@@ -469,7 +542,7 @@
                                 <use href="./images/icons.svg#icon-accept"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of thespan
+                        I accept the terms and conditions of the
                         <a href="" class="form-link">Privacy Policy</a>
                     </label>
 
@@ -480,7 +553,5 @@
 
         </div>
     </div>
+
 </body>
-
-
-</html>
