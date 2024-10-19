@@ -273,7 +273,7 @@ body {
     height: 432px;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/Dark1.jpg);
+        url('../images/Dark1.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
