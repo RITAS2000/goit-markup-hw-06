@@ -1056,9 +1056,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     .style-footer-paragraf {
         text-align: left;
     }
-    .social-m {
-        margin-right: 80px;
-    }
+    
     .style-footer-subscribe {
         text-align: left;
         padding-bottom: 16px;
@@ -1203,6 +1201,9 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
         padding-top: 100px;
         padding-right: 159px;
         padding-bottom: 100px;
+    }
+    .social-m {
+        margin-right: 80px;
     }
     .style-footer-subscribe {
         text-align: left;
