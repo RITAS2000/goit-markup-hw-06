@@ -1196,6 +1196,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     .container-footer-style {
         display: flex;
         align-items: flex-start;
+        justify-content: center;
         column-gap: 0;
         padding-left: 156px;
         padding-top: 100px;
